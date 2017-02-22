@@ -4,5 +4,5 @@ from setuptools import setup
 setup(
     name='pre_commit_dummy_package',
     version='0.0.0',
-    install_requires=['mypy-lang', 'typed_ast']
+    install_requires=['mypy-lang', 'typed_ast==1.0.1']
 )
